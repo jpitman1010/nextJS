@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 import Head from 'next/head';
 
 //can remove the Nav and go through Layout
-//and the actual props is the entire content within the Layout tags.
+//and the actual props is the entire content within 
+//the Layout tags on this page now
 
 const styles = {
     color:'blue', 
