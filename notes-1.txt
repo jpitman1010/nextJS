@@ -13,3 +13,25 @@ no need to import react or react dom onto indexjs or
 create pages directory
 add index.js and any other pages
 code!
+
+client side navigation:
+    -use next Link for navigation
+    -on pages, imort Link from 'next/link'
+    -set up links from index page to about:
+        -(
+            <div>
+                <h2>Hello from NextJS</h2>
+                <Link href="/about">
+                    <a>About</a>
+                </Link>
+            </div>
+        )
+    -set up links from about page to index:
+        -(
+            <div>
+                <h2>About Page</h2>
+                <Link href="/">
+                    <a>Home</a>
+                </Link>
+            </div>
+        )

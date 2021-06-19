@@ -1,6 +1,12 @@
-const About = () => <h2>About page. can be accessed 
-    through localhost:3000/about when next routing 
-    hasn't been set up yet.
-</h2>;
+import Link from 'next/link';
+
+const About = () => (
+    <div>
+        <h2>About page.</h2>
+        <Link href="/">
+            <a>Home</a>
+        </Link>
+    </div>
+)
 
 export default About;
