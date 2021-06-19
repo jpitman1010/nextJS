@@ -4,7 +4,7 @@ const About = () => (
     <div>
         <h2>About page.</h2>
         <Link href="/">
-            <a>Home</a>
+            <a style={{color:'blue', border:'.05rem solid blue', padding:5}}>Home</a>
         </Link>
     </div>
 )

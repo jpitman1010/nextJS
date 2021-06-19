@@ -35,3 +35,8 @@ client side navigation:
                 </Link>
             </div>
         )
+
+
+    the <a> tags are used so that you can apply styling, because the Link tag doesn't
+        show any styling added to that tag.
+
