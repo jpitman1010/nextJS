@@ -40,3 +40,21 @@ client side navigation:
     the <a> tags are used so that you can apply styling, because the Link tag doesn't
         show any styling added to that tag.
 
+    -scoped styling doesn't apply globally, it stays withing the scope of the page and
+        where it is defined to be used:
+            -example:
+            <p>This is p div to show the NextJS styling using style tags <br />
+                which are placed inside of the returned div for page, <br />
+                DO NOT <br />
+                place inside of Link tags, that only supports 1 child...
+            </p>
+            <style jsx>
+                {`
+                    p {
+                        color: indigo;
+                        font-size: 20px;
+                        font-weight: light;
+                    }           
+                `}
+            </style>
+
