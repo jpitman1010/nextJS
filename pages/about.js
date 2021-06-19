@@ -11,7 +11,10 @@ const styles = {
 }
 
 const About = () => (
-    <Layout>
+    <Layout title="About Page built with Next JS" 
+    footer={`Copyright ${new Date().getFullYear()}, built by Julie`}> 
+            {/* //adding in these properties to Layout so that they can pass as props to the 
+        //layout page.        */}
         <Head>
             <title>About</title>
         </Head>

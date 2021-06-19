@@ -13,7 +13,10 @@ const styles = {
 }
 
 const Index = () => (
-    <Layout>
+    <Layout title="Home Page built with Next JS" 
+    footer={`Copyright ${new Date().getFullYear()}`}>
+        {/* adding in these properties to Layout so that they can pass as props to the 
+        layout page. */}
         <Head>
             <title>Home</title>
             <meta name="description" content="My SEO React app wtih Next JS" />
