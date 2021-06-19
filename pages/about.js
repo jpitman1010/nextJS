@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Index from './index';
 import Head from 'next/head';
+//cannot use Head in components, only in pages.
 import Layout from '../components/layout';
 
 

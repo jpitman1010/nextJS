@@ -19,9 +19,6 @@ const Index = () => (
         layout page. */}
         <Head>
             <title>Home</title>
-            <meta name="description" content="My SEO React app wtih Next JS" />
-            <meta name="keywords" content="next react seo" />
-            <meta name="author" content="Julie Pitman" />
         </Head>
         <h2>Hello from NextJS</h2>
         <Link href="/about">

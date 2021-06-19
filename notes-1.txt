@@ -75,4 +75,12 @@ to add bootstrap css (or any other) and override the NextJS document,
 to render images in next, create a folder in the root called "static"
     -as long as you ahve all images in the static folder, you don't have to do 
     anything to import them into the pages or components.
+    -may have to refresh app to see changes here.
+
+
+adding your own CSS :
+    -add styles.css to your static folder
+    -then got to _document page and add in link to the css page in header
+    
+
 
