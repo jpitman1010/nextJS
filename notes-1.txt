@@ -1,0 +1,15 @@
+make folder for application
+cd into folder
+npm init
+    enter until all questions are done and projected init'ed
+code-insder .
+npm i --save react react-dom next
+
+
+no need to import react or react dom onto indexjs or 
+    anywhere, it is already done through package.json
+    in next project.
+
+create pages directory
+add index.js and any other pages
+code!
