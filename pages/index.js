@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Nav from '../components/nav';
 
 const styles = {
     color:'blue', 
@@ -8,6 +9,7 @@ const styles = {
 
 const Index = () => (
     <div>
+        <Nav />
         <h2>Hello from NextJS</h2>
         <Link href="/about">
             <a style={styles}>About</a>

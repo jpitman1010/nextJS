@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Index from './index';
+import Nav from '../components/nav';
+
 
 const styles = {
     color:'blue', 
@@ -9,6 +11,7 @@ const styles = {
 
 const About = () => (
     <div>
+        <Nav />
         <h2>About page.</h2>
         <Link href="/">
             <a style={styles}>Home</a>
