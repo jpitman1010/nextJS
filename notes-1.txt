@@ -58,3 +58,21 @@ client side navigation:
                 `}
             </style>
 
+
+building components to use in the pages:
+    -create components folder in main directory
+    -example component for nav:
+        -create nav.js file
+        -imort Link from 'next/link'
+        create function to return, adding in links
+
+
+
+to add bootstrap css (or any other) and override the NextJS document, 
+    add a page to the pages folder called _document
+
+
+to render images in next, create a folder in the root called "static"
+    -as long as you ahve all images in the static folder, you don't have to do 
+    anything to import them into the pages or components.
+
