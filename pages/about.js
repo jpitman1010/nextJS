@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Index from './index';
 import Nav from '../components/nav';
+import Head from 'next/head';
 
 
 const styles = {
@@ -11,6 +12,9 @@ const styles = {
 
 const About = () => (
     <div>
+        <Head>
+            <title>About</title>
+        </Head>
         <Nav />
         <h2>About page.</h2>
         <Link href="/">
